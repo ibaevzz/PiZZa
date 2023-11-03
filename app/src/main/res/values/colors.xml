@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="inactive_bottom_icon">#7B7B7B</color>
+    <color name="active_bottom_icon">#FD3A69</color>
+    <color name="bottom_nav_background">#f0f0f0</color>
+    <color name="background">#fbfbfb</color>
+    <color name="border_color">#f8f5f3</color>
+    <color name="type_background">#edcdd6</color>
+    <color name="type_active_text_color">#e94d6b</color>
+    <color name="type_inactive_text_color">#c3c4c8</color>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.PiZZa" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

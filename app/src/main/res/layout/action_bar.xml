@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="match_parent"
+        android:text="@string/moscow"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical|left"
+        android:gravity="left|center"
+        android:drawableRight="@drawable/arrow_down"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|right"
+        android:src="@drawable/qr_code" />
+</FrameLayout>

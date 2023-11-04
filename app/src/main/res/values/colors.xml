@@ -11,4 +11,5 @@
     <color name="type_background">#edcdd6</color>
     <color name="type_active_text_color">#e94d6b</color>
     <color name="type_inactive_text_color">#c3c4c8</color>
+    <color name="stroke_color">#e94d6b</color>
 </resources>

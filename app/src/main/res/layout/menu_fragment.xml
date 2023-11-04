@@ -4,10 +4,10 @@
     android:layout_height="match_parent">
 
     <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/background"
-        android:isScrollContainer="false">
+        android:background="@color/background">
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/banner"
             android:layout_width="match_parent"
@@ -42,6 +42,14 @@
         android:background="@color/background"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        app:indicatorColor="@color/black"/>
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_nav"
         android:layout_width="match_parent"
@@ -52,5 +60,4 @@
         app:itemTextColor="@color/bottom_nav_color"
         app:menu="@menu/bottom_navigation_menu"
         app:itemTextAppearanceActiveBoldEnabled="false" />
-
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
